@@ -3,3 +3,10 @@ inoremap <silent> <CR> <C-r>=<SID>my_cr_function()<CR>
 function! s:my_cr_function()
   return deoplete#mappings#smart_close_popup() . "\<CR>"
 endfunction
+
+
+# pachages to install on new linux machine
+tmux clang llvm neovim fish zsh tree ruby gem
+
+# gnome specific
+gconf-editor gnome-tweak-tool
