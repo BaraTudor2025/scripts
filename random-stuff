@@ -6,7 +6,7 @@ endfunction
 
 
 # pachages to install on new linux machine
-tmux clang llvm neovim fish zsh tree ruby gem
+tmux clang llvm neovim fish zsh tree ruby gem stack haskell-platform cmake 
 
 # gnome specific
 gconf-editor gnome-tweak-tool
