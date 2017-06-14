@@ -4,6 +4,7 @@ function! s:my_cr_function()
   return deoplete#mappings#smart_close_popup() . "\<CR>"
 endfunction
 
+"  git config --global credential.helper 'cache --timeout=86400'
 
 # pachages to install on new linux machine
 tmux clang llvm neovim fish zsh tree ruby gem stack haskell-platform cmake 
