@@ -11,7 +11,7 @@ python-devel python3-develautomake gcc gcc-c++ kernel-devel
 
 # pip install
 sudo pip install --upgrade neovim
-sudo pip install vim-vint cmakelint
+sudo pip install vim-vint cmakelint yamllint
 
 # gnome specific
 gconf-editor gnome-tweak-tool
