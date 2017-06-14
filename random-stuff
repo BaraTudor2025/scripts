@@ -10,8 +10,8 @@ tmux clang llvm neovim fish zsh tree ruby gem stack haskell-platform cmake
 python-devel python3-develautomake gcc gcc-c++ kernel-devel
 
 # pip install
---upgrade neovim
-vim-vint
+sudo pip install --upgrade neovim
+sudo pip install vim-vint cmakelint
 
 # gnome specific
 gconf-editor gnome-tweak-tool
